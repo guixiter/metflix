@@ -1,0 +1,337 @@
+
+
+* {
+     margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+body {
+    background-color: rgb(17,17,17);;;
+}
+
+
+img#logo {
+    position: absolute;
+    bottom: 93%;
+    size: 5px;
+    width:  100px;
+}
+div#metflix {
+  background-image: url(METFLIX\ \(1\).png);
+  background-position: right right;
+  background-size: cover;
+  position: absolute;
+  top: -3%;
+  left: 3%;
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;   
+}
+
+h6#inicio {
+  color: white;
+  position: absolute;
+  bottom: 93.4%;
+  left: 13.4%;
+  font-size: 1.2em;   
+}
+h5#navegar {
+    color: white;
+    position: absolute;
+    bottom: 93.4%;
+    left: 18%;
+    font-size: 1.2em; 
+}
+div#filmes{
+    color: white;
+    position: absolute;
+    bottom: 93.4%;
+    left: 23%;
+    font-size: 1.2em; 
+}
+div#Bombando{
+    color: white;
+    position: absolute;
+    bottom: 93.4%;
+    left: 27.6%;
+    font-size: 1.2em;
+
+}
+#lupa {
+    position: absolute;
+    top: 2.3%;
+    left: 81%;
+    color: white;
+    width: 30px;
+
+}
+div#infantil {
+  color: white;
+  position: absolute;
+  bottom: 94.5%;
+  left: 84%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+#sino {
+    position: absolute;
+    top: 2.5%;
+    left: 89%;
+    color:white;
+}
+div#icon {
+    background-image: url(iconedela.png);
+    background-position: right right;
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    left: 91.5%;
+    width: 38px;
+    height: 33px;
+    border-radius: 5px;   
+}
+
+div#titulo {
+  background-image: url(TAINARA\ A\ PRINCESA\ MAIS\ BELA\ DO\ MUNDO\ \(1\).png);
+  background-position: right right;
+  background-size: cover;
+  position: absolute;
+  top: -3%;
+  left: 1%;
+  width: 450px;
+  height: 450px;
+  border-radius: 5px;
+}
+div#top10 {
+  background-image: url(top10.png);
+  position: absolute;
+  top: 44%;
+  left: 4.8%;
+  width: 45px;
+  height:45px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+p#titulosec {
+  position: absolute;
+  top: 26%;
+  left: -6%;
+  width: 450px;
+  height: 450px;
+  border-radius: 5px;
+  font-size: 27px;
+  font-style: normal arial;
+}   
+p#subtitulo { 
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  left: -580px; 
+  top: 315px;
+  word-wrap: break-word;
+  
+}
+
+div#play {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 67%;
+    left: 4.8%;
+    border-radius: 3px;
+    
+}
+div#play {
+  text-align: center;
+  transition: transform 0.5s ease-in-out; 
+}
+
+div#play:hover {
+  transform: scale(0.8); 
+}
+
+div#more{
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.637);
+  width: 260px;
+  height: 50px;
+  position: absolute;
+  top: 67%;
+  left: 16%;
+  border-radius: 3px;
+}
+strong#moreinf{
+  margin-left: 52px;
+  font-size: 20px;
+  font-weight: 950;
+  position: absolute;
+  top: 20%;
+  font-style: normal arial;
+  color: white;
+}
+div#iconeinf{
+  background-image: url(more_inf-removebg-preview.png);
+  position: absolute;
+  top: 17.9%;
+  left: 3.5%;
+  width: 37px;
+  height:37px;
+  background-size: cover;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(1000%) contrast(100%);
+}
+
+#watch{
+  margin-left: -18px;
+  font-size: 20px;
+  font-weight: 800;
+  position: absolute;
+  top: 15%;
+}
+div#playbuttom{
+  background-image: url(play-removebg-preview.png);
+  position: absolute;
+  top: 67.8%;
+  left: 5.8%;
+  width: 37px;
+  height:37px;
+  border-radius: 5px;
+  background-size: cover;
+  
+}
+strong#cont{
+  position: absolute;
+  top: 84%;
+  left: 2%;
+  width: 800px;
+  height: 800px;
+  border-radius: 5px;
+  font-size: 38px;
+  font-style: normal arial;
+  color: white;
+  font-weight: 900;
+}
+.container {
+    display: flex;
+    margin-top: 50px;
+    position: absolute;
+    top: 580px;
+  }
+  
+  .item {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+  }
+  
+  .container:focus-within .item,
+  .container:hover .item {
+    transform: translateX(10%);
+  }
+  
+  .item:focus ~ .item,
+  .item:hover ~ .item {
+    transform: translateX(25%);
+  }
+  
+  .container .item:focus,
+  .container .item:hover {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .item img {
+    display: block;
+    max-width: 100%;
+  }
+
+
+
+p#alta {
+    color:rgb(252, 247, 247);
+    font-size: 1.2em;
+    position: absolute;
+    top: 51%;
+    left: 60%;
+    transform: translate(-211%,110%);
+}
+
+ul#tp img {
+
+    width: 155px;
+    margin-right: 10px;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px rgb(255,255,255, 0 .136);
+}
+
+p#novamente {
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    top: 90%;
+    left: 50%; 
+    transform: translate(-22%, -40%);  
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+  }
+  
+  .item {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+  }
+  
+  .container:focus-within .item,
+  .container:hover .item {
+    transform: translateX(-25%);
+  }
+  
+  .item:focus ~ .item,
+  .item:hover ~ .item {
+    transform: translateX(25%);
+  }
+  
+  .container .item:focus,
+  .container .item:hover {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .item img {
+    display: block;
+    max-width: 100%;
+  }
+    
+
+
+
+u1#sp img {
+    width: 155px;
+    margin-right: 10px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(255,255,255, 0.136);
+}
